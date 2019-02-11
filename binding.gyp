@@ -99,10 +99,12 @@
             }],
             ['OS=="mac"', {
                 'xcode_settings': {
+                    'GCC_ENABLE_CPP_RTTI': 'YES',
                     'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
-                    'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.7',
-                          '-stdlib=libc++',
-                          '-std=c++0x']
+                    'MACOSX_DEPLOYMENT_TARGET':'10.8',
+                    'CLANG_CXX_LIBRARY': 'libc++',
+                    'CLANG_CXX_LANGUAGE_STANDARD':'c++11',
+                    'GCC_VERSION': 'com.apple.compilers.llvm.clang.1_0'
                 },
                 'include_dirs': ['/usr/include/malloc']
             }],
@@ -214,10 +216,12 @@
             }],
             ['OS=="mac"', {
                 'xcode_settings': {
+                    'GCC_ENABLE_CPP_RTTI': 'YES',
                     'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
-                    'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.7',
-                          '-stdlib=libc++',
-                          '-std=c++0x']
+                    'MACOSX_DEPLOYMENT_TARGET':'10.8',
+                    'CLANG_CXX_LIBRARY': 'libc++',
+                    'CLANG_CXX_LANGUAGE_STANDARD':'c++11',
+                    'GCC_VERSION': 'com.apple.compilers.llvm.clang.1_0'
                 },
                 'include_dirs': ['/usr/include/malloc']
             }],
@@ -272,10 +276,12 @@
             }],
             ['OS=="mac"', {
                 'xcode_settings': {
+                    'GCC_ENABLE_CPP_RTTI': 'YES',
                     'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
-                    'OTHER_CPLUSPLUSFLAGS' : [ '-mmacosx-version-min=10.7',
-                          '-stdlib=libc++',
-                          '-std=c++0x']
+                    'MACOSX_DEPLOYMENT_TARGET':'10.8',
+                    'CLANG_CXX_LIBRARY': 'libc++',
+                    'CLANG_CXX_LANGUAGE_STANDARD':'c++11',
+                    'GCC_VERSION': 'com.apple.compilers.llvm.clang.1_0'
                 },
                 'include_dirs': ['/usr/include/malloc']
             }],
